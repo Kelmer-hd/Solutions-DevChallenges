@@ -1,0 +1,159 @@
+html{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+.principal{
+  width: 80%;
+  /* height: 100vh; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.principal .header-top {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.principal .header-top .header-top-principal{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.principal .header-top .header-top-principal h2{
+  font-size: 2.5rem;
+
+}
+
+.principal .header-top .header-top-text{
+  width: 50%;
+  margin-top: 5rem;
+  
+}
+
+.principal .header-top .header-top-text h3{
+  width: 70%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: start;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.principal .header-top .header-top-text p{
+  font-size: 1rem;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  
+}
+
+
+.teams{
+  width: 100%;
+  height:auto ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.teams .teams-container{
+  margin-top: -7rem;
+  width: 30%;
+}
+
+.teams .teams-container:hover{
+  /* background-color: black; */
+  cursor: pointer;
+  opacity: .7;
+  color: rgb(110, 15, 15);
+}
+
+.teams .teams-container .teams-content{
+  position: relative;
+}
+
+.teams .teams-container .teams-content img{
+  width: 100%;
+}
+
+.teams .especial{
+  margin-top: 10rem;
+}
+
+.teams .teams-container .teams-content h4{
+  font-size: 1.5rem;
+  margin-top: .3rem;
+}
+
+.teams .teams-container .teams-content p{
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: 0;
+  left: 98%;
+
+}
+
+@media only screen and (max-width: 650px) {
+  .teams .teams-container{
+    margin-top: 0rem;
+    width: 40%;
+  }
+
+  .principal .header-top .header-top-text p{
+    font-size: 1rem;
+    width: 100%;
+    
+  }
+
+  .principal .header-top .header-top-text h3{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: -5rem;
+    
+  }
+
+  .teams .teams-container{
+    margin-bottom: 0;
+  }
+
+  .teams .teams-container .teams-content{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .teams .optional{
+    margin-top: 7rem;
+  
+  
+}
+
